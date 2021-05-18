@@ -30,7 +30,7 @@
   - Accuracy 2: 3.1 % 
   - loss_1: 0.738
   - loss_2: 2324.328
-- Second we train for another 20 epochs the network path involving Input 2 to Output 2 keeping all other weights constant. (Back propogation happens for only loss 1)
+- Second we train for another 20 epochs the network path involving Input 2 to Output 2 keeping all other weights constant. (Back propogation happens for only loss 2)
   - Accuracy 1: 99.84 %
   - Accuracy 2: 35.745 % 
   - loss_1: 2.678
