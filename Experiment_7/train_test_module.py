@@ -1,4 +1,6 @@
 from tqdm import tqdm
+import torch.nn as nn
+import torch.nn.functional as F
 criterion = nn.CrossEntropyLoss()
 
 def train(model, device, train_loader, optimizer, epoch, scheduler = None):
