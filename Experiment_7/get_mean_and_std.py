@@ -10,5 +10,3 @@ def get_mean_std (loader):
   mean = channels_sum / num_batches
   std = (channels_squared_sum / num_batches - mean**2)**0.5
   return mean, std, num_batches
-
-get_mean_std (trainloader)
