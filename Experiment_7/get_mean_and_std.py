@@ -1,3 +1,5 @@
+import torch
+
 def get_mean_std (loader):
   channels_sum, channels_squared_sum, num_batches = 0, 0, 0
 
